@@ -1,0 +1,147 @@
+.requestsMainContainer{
+    background-color: rgb(230,230,250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    font-family: 'sans-serif';
+}
+
+.requestsMainContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.requestHeading{
+    font-size: 3vmax;
+    margin: 0px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #995aff8b;
+    width: 100%;
+    text-align: center;
+}
+
+.requestsort{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.requestsort button{
+    width: 20vw;
+    height: 7vmin;
+    margin: 1vmin;
+    font-size: 3vmin;
+    border-radius: 1.75em;
+    background-color: white;
+    border-color: pink;
+    font-family: 'sans-serif';
+    color: rgb(33, 3, 33);
+}
+
+.requestsList{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1vw;
+    margin: 0px;
+    padding-bottom: 4vh;
+}
+  
+.requestCardContainer{
+    font-family: 'sans-serif';
+    width: 40vw;
+    height: fit-content;
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 1vmax;
+    background-color: rgb(255, 255, 255);
+}
+  
+.requestTop{
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+  
+.requestDesignImage{
+    width: 25%;
+    height: 90%;
+    padding: 1%;
+    border-radius: 10%;
+    margin-right: 5%;
+}
+  
+.requestCardText{
+    margin: 0px;
+    height: 90%;
+    overflow: auto;
+}
+  
+.requestCardText::-webkit-scrollbar {
+    display: none;
+}
+  
+.requestCardText h1{
+    font-size: 90%;
+}
+
+.name{
+    color: #0077ff;
+    text-align: center;
+    font-size: 4.5vmin;
+}
+  
+.requestsPara{
+    font-size: 4vmin;
+    font-weight: bold;
+    padding: 1%;
+    margin: 0px;
+}
+  
+.requestCardText span{
+    font-size: 3vmin;
+    height: 1vmin;
+    font-weight: 500;
+    overflow: auto;
+}
+  
+.requestBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+  
+.requestAccept{
+    border-style: groove;
+    width: 40%;
+    border-radius: 2vmax;
+    height: 6vmin;
+    font-size: 3vmin;
+    border: none;
+    color: white;
+    font-family: serif;
+    background-color: #76B3FA;
+}
+  
+.requestDecline{
+    border-style: hidden;
+    font-size: 3vmin;
+    border: none;
+    color: rgb(255, 22, 22);
+    font-family: serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 950px) {
+    .requestCardContainer{
+        width: 80vw;
+    }
+    .requestsMainContainer{
+        height: 88vh;
+    }
+}

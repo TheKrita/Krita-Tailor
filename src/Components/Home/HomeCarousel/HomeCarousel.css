@@ -1,0 +1,48 @@
+.homecarousel {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    height: 25vh;
+  }
+
+  .homecarousel__prev,
+  .homecarousel__next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ffffff00;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
+
+  .homecarousel__prev {
+    left: 10px;
+  }
+
+  .homecarousel__next {
+    right: 10px;
+  }
+
+  .homecarousel__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    height: 25vh;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 900px) {
+    .homecarousel{
+      height: 45vh;
+    }
+
+    .homecarousel__image{
+      height: 45vh;
+    }
+  }

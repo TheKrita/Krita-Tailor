@@ -1,0 +1,112 @@
+.RequestsMainContainer{
+    padding: 4vmin;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: rgb(230,230,250);
+    overflow: auto;
+}
+
+.RequestsMainContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.mainContainer{
+    display: flex;
+    border-style: none;
+    border-radius: 2vmin;
+    margin-bottom: 1vmin;
+    padding: 2vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto";
+    border: none;
+}
+
+.contName{
+    padding: 0px;
+    margin: 0px;
+    font-size: 5vmin;
+}
+
+.priceContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceBox{
+    border-radius: 2vmin;
+    padding: 1vmin;
+    margin: 0px;
+    font-size: 4vmin;
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.acceptButton{
+    border-style: groove;
+    width: 25vmin;
+    border-radius: 2vmax;
+    height: 6vmin;
+    font-size: 5vmin;
+    border: none;
+    color: white;
+    background-color: green;
+}
+
+.declineButton {
+    border-style: groove;
+    width: 25vmin;
+    border-radius: 2vmax;
+    height: 6vmin;
+    font-size: 5vmin;
+    border: none;
+    color: white;
+    background-color: red;
+}
+
+.bottomContainer{
+    font-family: "Roboto";
+    border-style: groove;
+    border-radius:2vmin;
+    padding: 4vmin;
+    margin: 0px;
+}
+
+.bottomContainer h2{
+    padding: 0px;
+    margin: 0px;
+    font-size: 7vmin;
+}
+
+.bottomContainer ul{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 4vmin;
+}
+
+.bottomContainer li{
+    font-size: 4vmin;
+    list-style-type: none;
+}
+
+.carouselRequest{
+    width: 95vw;
+}
+
+@media screen and (max-width: 600px) {
+    .RequestsMainContainer{
+      height: 89vh;
+    }  
+}
